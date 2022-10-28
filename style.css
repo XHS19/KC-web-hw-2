@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+*{
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: linear-gradient(356deg, rgba(36,0,0,1) 0%, rgba(121,9,9,1) 50%, rgba(255,80,0,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+li, a, button{
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px 5px;
+    height: 50px;
+    width: 100%;
+    z-index: 5;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.logo{
+    cursor: pointer;
+    height: 75px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: red;
+    font-size: 22px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.h-button{
+    padding: 9px 25px;
+    background-color: red;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.h-button:hover{
+    background-color: rgb(193, 3, 3);
+    font-size: 22px;
+    transition: 1s;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin: 50px 50%;
+}
+.card{
+    position: relative;
+    margin: 60px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.44) 0px 15px 12px;
+}
+
+.poster{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+}
+
+.overlay-effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 450px;
+    width: 300px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.lower-text-part{
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    right: 0;
+}
+
+.lower-text-part h1{
+    color: #ffffff;
+}
+
+.lower-text-part p{
+    color: #ffffff;
+}
+
+.star{
+    color: yellow;
+}
+
+.button-1{
+    padding: 5px 10px;
+    background-color: #0c44ac;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-2{
+    padding: 5px 10px;
+    background-color: #0c44ac;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.after-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 450px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.card:hover .after-hover{
+    opacity: 1;
+    color: #ffffff;
+}
+
+.about-move{
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.group-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.duration{
+    text-align: center;
+}
+
+.director{
+    text-align: center;
+
+}
+
+.year{
+    text-align: center;
+}
+
+.cast{
+    text-align: center;
+}
+
+.imdb-button{
+    padding: 5px 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.war{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.horror{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px 5px;
+    height: 50px;
+    width: 100%;
+    z-index: 5;
+    background-color: #ffffff;
+    box-shadow: 0px -5px 30px black;
+}
+
